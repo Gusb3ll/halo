@@ -11,15 +11,13 @@ import { express as voyagerMiddleware } from 'graphql-voyager/middleware'
 
 const app: Application = express()
 
-const isDevelopment = process.env.NODE_ENV === 'development'
-
 app.use(cors({ origin: '*' }))
 app.use(express.json())
 app.use(compression())
 app.use(
   helmet({
-    crossOriginEmbedderPolicy: !isDevelopment,
-    contentSecurityPolicy: !isDevelopment,
+    contentSecurityPolicy: false,
+    crossOriginEmbedderPolicy: false,
   }),
 )
 
