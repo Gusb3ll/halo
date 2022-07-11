@@ -7,7 +7,7 @@ COPY .yarn ./.yarn
 
 COPY apps/server ./apps/server
 
-RUN yarn install --immutable
+RUN yarn install
 
 RUN yarn build:server
 
