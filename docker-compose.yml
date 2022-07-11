@@ -9,4 +9,4 @@ services:
       dockerfile: Dockerfile
     restart: always
     ports:
-      - '4000:4000'
+      - '4000:8080'
