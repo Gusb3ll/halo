@@ -11,15 +11,19 @@ import { errorInterceptor, resolveTime } from '@middleware'
 import app from './app';
 
 (async () => {
+  const middlewares = [
+    errorInterceptor,
+  ]
+
+  if (process.env.NODE_ENV !== 'production')
+    middlewares.push(resolveTime)
+
   const apolloServer = new ApolloServer({
     schema: await buildSchema({
       resolvers: [
         haloResolver,
       ],
-      globalMiddlewares: [
-        errorInterceptor,
-        resolveTime,
-      ],
+      globalMiddlewares: middlewares,
     }),
     context: ({ req, res }) => ({ req, res }),
     cache: 'bounded',
