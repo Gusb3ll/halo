@@ -1,22 +1,15 @@
 import { defineConfig } from 'vite'
 import solidPlugin from 'vite-plugin-solid'
-import WindiCSS from 'vite-plugin-windicss'
-import { createHtmlPlugin } from 'vite-plugin-html'
+import UnocssPlugin from '@unocss/vite'
 
 export default defineConfig({
   plugins: [
     solidPlugin(),
-    WindiCSS({
-      scan: {
-        fileExtensions: ['html', 'js', 'ts', 'jsx', 'tsx'],
-      },
-    }),
-    createHtmlPlugin({
-      minify: true,
+    UnocssPlugin({
+      // your config or in uno.config.ts
     }),
   ],
   build: {
-    minify: true,
     target: 'esnext',
     polyfillDynamicImport: false,
   },

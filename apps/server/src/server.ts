@@ -3,7 +3,7 @@ import { buildSchema } from 'type-graphql'
 import { ApolloServer } from 'apollo-server-express'
 import { ApolloServerPluginLandingPageLocalDefault, ApolloServerPluginLandingPageProductionDefault } from 'apollo-server-core'
 
-import Logger from '@halo/logger'
+import Logger from '@utils/logger'
 
 import { haloResolver } from '@resolvers/halo.resolver'
 import { errorInterceptor, resolveTime } from '@middleware'

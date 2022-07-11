@@ -1,6 +1,17 @@
 {
-  "extends": "@halo/tsconfig/server.json",
   "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "strictNullChecks": false,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ESNext", "ESNext.AsyncIterable"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "baseUrl": "src",
     "outDir": "dist",
     "paths": {

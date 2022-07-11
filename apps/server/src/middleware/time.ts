@@ -1,6 +1,6 @@
 import type { MiddlewareFn } from 'type-graphql'
 
-import Logger from '@halo/logger'
+import Logger from '@utils/logger'
 
 const resolveTime: MiddlewareFn = async ({ info }, next) => {
   const start = Date.now()
