@@ -6,7 +6,7 @@ import { Show } from 'solid-js'
 import { createGraphQLClient, gql } from '@solid-primitives/graphql'
 
 const App: Component = () => {
-  const query = createGraphQLClient('http://localhost:4000/graphql')
+  const query = createGraphQLClient('https://sorasaki-778099165569843233.rcf2.deploys.app/graphql')
   const [data, { refetch }] = query<{ getCunny: { ok: boolean; url: string; name: string } }>(
     gql`
         query GetCunny {

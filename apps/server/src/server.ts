@@ -36,7 +36,7 @@ import app from './app';
 
   apolloServer.applyMiddleware({ app })
 
-  app.listen(parseInt(process.env.PORT) || 4000, '0.0.0.0', () => {
-    Logger.info(`Server started on port ${process.env.PORT || 4000}`)
+  app.listen(parseInt(process.env.PORT) || 8080, '0.0.0.0', () => {
+    Logger.info(`Server started on port ${process.env.PORT || 8080}`)
   })
 })()
