@@ -1,9 +1,8 @@
 version: '3.8'
 
 services:
-  Sorasaki:
-    container_name: Sorasaki
-    image: gusbell/halo:1.0.0
+  sorasaki:
+    container_name: sorasaki
     build:
       context: .
       dockerfile: Dockerfile
