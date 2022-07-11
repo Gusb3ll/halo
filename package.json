@@ -1,26 +1,47 @@
 {
   "name": "halo",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
-  "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
-  "devDependencies": {
-    "eslint-config-custom": "*",
-    "prettier": "latest",
-    "turbo": "latest"
-  },
+  "packageManager": "yarn@4.0.0-rc.11",
   "engines": {
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "dependencies": {},
-  "packageManager": "yarn@1.22.19"
+  "scripts": {
+    "dev": "NODE_ENV=development dotenv -e .env -- turbo run dev --parallel",
+    "dev:client": "NODE_ENV=development dotenv -e .env -- turbo run dev --filter=\"./apps/client\"",
+    "dev:server": "NODE_ENV=development dotenv -e .env -- turbo run dev --filter=\"./apps/*\" --filter=\"!./apps/client\"",
+    "build": "turbo run build",
+    "build:package": "turbo run build --filter=\"./packages/*\"",
+    "build:client": "turbo run build --filter=\"./apps/client\"",
+    "build:server": "turbo run build --filter=\"./apps/server\"",
+    "start": "concurrently --kill-others-on-fail \"yarn start:client\"  \"yarn start:server\"",
+    "start:client": "yarn workspace client start",
+    "start:server": "yarn workspace server start",
+    "prepare": "husky install",
+    "lint": "eslint . --cache --fix --ext .ts,.tsx",
+    "pretest": "npm run lint"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.211",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "concurrently": "^7.2.2",
+    "dotenv": "^16.0.1",
+    "dotenv-cli": "^6.0.0",
+    "eslint": "^8.19.0",
+    "husky": "^8.0.1",
+    "nodemon": "^2.0.19",
+    "rimraf": "^3.0.2",
+    "turbo": "latest",
+    "typescript": "^4.7.4"
+  }
 }

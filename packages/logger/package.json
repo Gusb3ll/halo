@@ -1,0 +1,15 @@
+{
+  "name": "@halo/logger",
+  "version": "0.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && swc src -d dist"
+  },
+  "dependencies": {
+    "winston": "3.8.1"
+  }
+}

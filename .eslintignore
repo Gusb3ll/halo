@@ -1,6 +1,8 @@
 node_modules
-.turbo
-.env
+*.log
+*.yml
+*.lock
+*.yarn
 
 .yarn/*
 !.yarn/cache
@@ -9,4 +11,3 @@ node_modules
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-.eslintcache
