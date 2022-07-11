@@ -1,6 +1,6 @@
 # Halo
 
-Just Blue Archive image randomizer
+Just a image generator
 
 ## Development
 
