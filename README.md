@@ -7,10 +7,6 @@ Just a image generator
 ```bash
 yarn install
 
-yarn build:package
-```
-
-```bash
 # client only
 yarn dev:client
 
