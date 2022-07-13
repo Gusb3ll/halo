@@ -12,8 +12,8 @@ const App: Component = () => {
   )
   return (
     <>
-      <div class="flex min-h-screen flex-col items-center gap-4">
-        <h1 class="text-3xl">Questionable image generator</h1>
+      <div class="flex h-full flex-col items-center gap-4">
+        <h1 class="md:text-3xl text-2xl">Questionable image generator</h1>
         <button onClick={refetch} class="-mt-2 mb-2 py-2 px-8 border-0 bg-blue-400 hover:bg-blue-500 text-white font-bold rounded cursor-pointer transition-all text-lg font-thin">
           Get another pic
         </button>
