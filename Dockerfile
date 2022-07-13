@@ -17,8 +17,6 @@ COPY --from=builder /cunny/node_modules ./node_modules
 COPY --from=builder /cunny/apps/server ./apps/server
 COPY --from=builder /cunny/package.json ./
 
-ENV NODE_ENV="production"
-
 EXPOSE 8080
 
 CMD ["yarn", "start:server"]
