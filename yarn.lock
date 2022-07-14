@@ -5,7 +5,7 @@ __metadata:
   version: 7
   cacheKey: 9
 
-"@ampproject/remapping@npm:^2.1.0":
+"@ampproject/remapping@npm:^2.1.0, @ampproject/remapping@npm:^2.2.0":
   version: 2.2.0
   resolution: "@ampproject/remapping@npm:2.2.0"
   dependencies:
@@ -1889,13 +1889,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/config@npm:0.34.1":
-  version: 0.34.1
-  resolution: "@unocss/config@npm:0.34.1"
+"@unocss/config@npm:0.44.2":
+  version: 0.44.2
+  resolution: "@unocss/config@npm:0.44.2"
   dependencies:
-    "@unocss/core": "npm:0.34.1"
+    "@unocss/core": "npm:0.44.2"
     unconfig: "npm:^0.3.4"
-  checksum: 9653ee478f5f58fea460456a832db50bf90dc2c51fca4f7f2930a057cd6512d72a33a885c11dddc3c2ec9f264e0027f32b9597a92a104a247e22e10fec6b6385
+  checksum: 1ce18d8ed7b4028803b962a1235748a3df526f556144147882606dd02e0bfa1d50dcb3ca2cf741a0a592cdcceb3e571373cfe775848379ce0cd7383941be73a7
   languageName: node
   linkType: hard
 
@@ -1906,13 +1906,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/inspector@npm:0.34.1":
-  version: 0.34.1
-  resolution: "@unocss/inspector@npm:0.34.1"
+"@unocss/core@npm:0.44.2":
+  version: 0.44.2
+  resolution: "@unocss/core@npm:0.44.2"
+  checksum: 0375a2244506f9f1bb105f702c4ff05ab250fc2aa4e4f49c54fb1b3699d4b685483ff069af228e11e387ba19fb75ec6edfaecc9f5fb445d02fb89c9fe4364ff9
+  languageName: node
+  linkType: hard
+
+"@unocss/inspector@npm:0.44.2":
+  version: 0.44.2
+  resolution: "@unocss/inspector@npm:0.44.2"
   dependencies:
     gzip-size: "npm:^6.0.0"
     sirv: "npm:^2.0.2"
-  checksum: d778f29c10e1047da421fbd2691254b023d7a6296a6ab9ace3b214d56b6820bdb4194f28163d4a6d44a8be7c7805c0aaf4f8a1e7b42fe51bac8981e2d06e746c
+  checksum: 8b6299192a65131408eba9c0cbe10bf393bffb52f008789be5f0cee00c9afdcb10f326591fb209da4fb5f2cb187e5e296268d23edde65747f4dcaa3912a143aa
   languageName: node
   linkType: hard
 
@@ -1925,37 +1932,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/scope@npm:0.34.1":
-  version: 0.34.1
-  resolution: "@unocss/scope@npm:0.34.1"
-  checksum: cfd916e5bc05f2fc0f303e01f3e23c2e60b39c6ed7a937f6561976ebf6618fa81ebf75dee74ec30c53025f1f2af070b700a6e71359881aeccd264f0656bd4919
+"@unocss/scope@npm:0.44.2":
+  version: 0.44.2
+  resolution: "@unocss/scope@npm:0.44.2"
+  checksum: 552fb65f01a27926bf8847ce63883aa053da2e0754157501b60f71c6ba4c7935a9e9ead977fbfde17ac4db7f8da49a67a0103b3cc86a70cfc1fbfb90af24cc5b
   languageName: node
   linkType: hard
 
-"@unocss/transformer-directives@npm:0.34.1":
-  version: 0.34.1
-  resolution: "@unocss/transformer-directives@npm:0.34.1"
+"@unocss/transformer-directives@npm:0.44.2":
+  version: 0.44.2
+  resolution: "@unocss/transformer-directives@npm:0.44.2"
   dependencies:
-    "@unocss/core": "npm:0.34.1"
+    "@unocss/core": "npm:0.44.2"
     css-tree: "npm:^2.1.0"
-  checksum: 79cb4d73526a5491f81aafa5c1e108476835e81929dcc02ca6c02905f94c4cbc44bd73f7a9d8b0806b7a816c1a1ea978ef33915f73ef784f6f1557cc0d946f7a
+  checksum: c160b2144818b8fa72cd7b8c298fc39d71d7d26e8707510d0d27e3199adea27389fdcd533d8a182eb186dd67e9b6cd6690234635063cb896d64950efd3db0abc
   languageName: node
   linkType: hard
 
-"@unocss/vite@npm:0.34.1":
-  version: 0.34.1
-  resolution: "@unocss/vite@npm:0.34.1"
+"@unocss/vite@npm:0.44.2":
+  version: 0.44.2
+  resolution: "@unocss/vite@npm:0.44.2"
   dependencies:
+    "@ampproject/remapping": "npm:^2.2.0"
     "@rollup/pluginutils": "npm:^4.2.1"
-    "@unocss/config": "npm:0.34.1"
-    "@unocss/core": "npm:0.34.1"
-    "@unocss/inspector": "npm:0.34.1"
-    "@unocss/scope": "npm:0.34.1"
-    "@unocss/transformer-directives": "npm:0.34.1"
+    "@unocss/config": "npm:0.44.2"
+    "@unocss/core": "npm:0.44.2"
+    "@unocss/inspector": "npm:0.44.2"
+    "@unocss/scope": "npm:0.44.2"
+    "@unocss/transformer-directives": "npm:0.44.2"
     magic-string: "npm:^0.26.2"
   peerDependencies:
-    vite: ^2.9.0
-  checksum: 5cffb0b20dd5c905898ef6b4a970c53002e5b22acd78271280a1449aeaee757dd5af192985ae92bf5639abc75a8b593212ab53ae2a36e0caa2e8c9e29dc78bfe
+    vite: ^2.9.0 || ^3.0.0-0
+  checksum: 0045cadc964a5b37599d608a4ddc14240325e86638e37a9de9728aea131a28b1a3acb2c372c50574510e309c399e8ee7ec68ca6a8f4127925cb4618d63ab05d8
   languageName: node
   linkType: hard
 
@@ -2671,7 +2679,7 @@ __metadata:
   dependencies:
     "@solid-primitives/graphql": "npm:1.1.1"
     "@unocss/preset-mini": "npm:0.34.1"
-    "@unocss/vite": "npm:0.34.1"
+    "@unocss/vite": "npm:0.44.2"
     solid-js: "npm:1.4.7"
     typescript: "npm:4.7.4"
     vite: "npm:2.9.14"
