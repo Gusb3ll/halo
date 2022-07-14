@@ -27,21 +27,21 @@
     "pretest": "npm run lint"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.25.2",
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3",
-    "@swc/cli": "^0.1.57",
-    "@swc/core": "^1.2.211",
-    "@typescript-eslint/eslint-plugin": "^5.30.5",
-    "@typescript-eslint/parser": "^5.30.5",
-    "concurrently": "^7.2.2",
-    "dotenv": "^16.0.1",
-    "dotenv-cli": "^6.0.0",
-    "eslint": "^8.19.0",
-    "husky": "^8.0.1",
-    "nodemon": "^2.0.19",
-    "rimraf": "^3.0.2",
+    "@antfu/eslint-config": "0.25.2",
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "@swc/cli": "0.1.57",
+    "@swc/core": "1.2.211",
+    "@typescript-eslint/eslint-plugin": "5.30.5",
+    "@typescript-eslint/parser": "5.30.5",
+    "concurrently": "7.2.2",
+    "dotenv": "16.0.1",
+    "dotenv-cli": "6.0.0",
+    "eslint": "8.19.0",
+    "husky": "8.0.1",
+    "nodemon": "2.0.19",
+    "rimraf": "3.0.2",
     "turbo": "latest",
-    "typescript": "^4.7.4"
+    "typescript": "4.7.4"
   }
 }
