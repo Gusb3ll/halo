@@ -1899,13 +1899,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/core@npm:0.34.1":
-  version: 0.34.1
-  resolution: "@unocss/core@npm:0.34.1"
-  checksum: 3abcfa25609fd00113b7940630545ea38e0d4110bb366efa20b2fc92234d43737a1227ab4a6d01be9b8258dd211610b1aa135b50cbd3920036ec8dad55d6caf1
-  languageName: node
-  linkType: hard
-
 "@unocss/core@npm:0.44.2":
   version: 0.44.2
   resolution: "@unocss/core@npm:0.44.2"
@@ -1923,12 +1916,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/preset-mini@npm:0.34.1":
-  version: 0.34.1
-  resolution: "@unocss/preset-mini@npm:0.34.1"
+"@unocss/preset-mini@npm:0.44.2":
+  version: 0.44.2
+  resolution: "@unocss/preset-mini@npm:0.44.2"
   dependencies:
-    "@unocss/core": "npm:0.34.1"
-  checksum: 1b8590b3d3b168354c23dc2bc5a3ffbc56a3c83cbc61fc88f111cd91632dff4ed19ca3cfc9389a0a1efc16264fdfe6212c6697280e618b1bc313cecd7ce2f7be
+    "@unocss/core": "npm:0.44.2"
+  checksum: af3b4cb9505dff1ce278a9cabf2af8b1766d30b8b08068e7f8395efac2ced613097ede7394c5663dd9c3e5bd13b7a3da9eebcf1e2593a4b5af0cc4f876eb8310
   languageName: node
   linkType: hard
 
@@ -2678,7 +2671,7 @@ __metadata:
   resolution: "client@workspace:apps/client"
   dependencies:
     "@solid-primitives/graphql": "npm:1.1.1"
-    "@unocss/preset-mini": "npm:0.34.1"
+    "@unocss/preset-mini": "npm:0.44.2"
     "@unocss/vite": "npm:0.44.2"
     solid-js: "npm:1.4.7"
     typescript: "npm:4.7.4"
