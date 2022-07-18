@@ -1,6 +1,4 @@
-# Halo
-
-Just a image generator
+![halo](https://user-images.githubusercontent.com/77166960/179572273-3c50b1a9-c576-4a6e-a97b-bfa00f4ad233.png)
 
 ## Development
 
