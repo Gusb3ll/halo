@@ -2708,7 +2708,7 @@ __metadata:
     "@unocss/vite": "npm:0.44.3"
     solid-js: "npm:1.4.7"
     typescript: "npm:4.7.4"
-    vite: "npm:3.0.1"
+    vite: "npm:3.0.2"
     vite-plugin-solid: "npm:2.3.0"
   languageName: unknown
   linkType: soft
@@ -8128,9 +8128,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:3.0.1":
-  version: 3.0.1
-  resolution: "vite@npm:3.0.1"
+"vite@npm:3.0.2":
+  version: 3.0.2
+  resolution: "vite@npm:3.0.2"
   dependencies:
     esbuild: "npm:^0.14.47"
     fsevents: "npm:~2.3.2"
@@ -8156,7 +8156,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 0b0947c884e0ef21a2bcb3d3dbb6c2ee2eea7ea924dbd43544e0f9258a8f7c1f82f9e14589031c57d79f3ac1eadef8f931200fd265561a29711829489f83bf28
+  checksum: b1a9ff14d726855e0d23be93ff7a011f1020a6abd689504c6e5f90599e606dd96d1efcb1dd386284bbc510ac1e646d250a05800d33d1abec9f16c0a7517fdf91
   languageName: node
   linkType: hard
 
