@@ -2875,9 +2875,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concurrently@npm:7.2.2":
-  version: 7.2.2
-  resolution: "concurrently@npm:7.2.2"
+"concurrently@npm:7.3.0":
+  version: 7.3.0
+  resolution: "concurrently@npm:7.3.0"
   dependencies:
     chalk: "npm:^4.1.0"
     date-fns: "npm:^2.16.1"
@@ -2890,7 +2890,7 @@ __metadata:
     yargs: "npm:^17.3.1"
   bin:
     concurrently: dist/bin/concurrently.js
-  checksum: 9824622866e16446be16bc4e3902d02ce95c5d1290f5171c85c9f99bc23e7f3e3e24b6cd65171fc7c13eac94798d2bbaee7fb890667a4ff3c1cb65e7329bd5b0
+  checksum: 5e67b57bfc5ccf00a1b5ef459f2a9b528e52312d636a3c9a8857476e5f79d91dc8e8190dcd2f0a87237cad2aa81073843cb09fef84ec0f0d3fd90bf1c44a4e20
   languageName: node
   linkType: hard
 
@@ -4671,7 +4671,7 @@ __metadata:
     "@swc/core": "npm:1.2.218"
     "@typescript-eslint/eslint-plugin": "npm:5.30.7"
     "@typescript-eslint/parser": "npm:5.30.7"
-    concurrently: "npm:7.2.2"
+    concurrently: "npm:7.3.0"
     dotenv: "npm:16.0.1"
     dotenv-cli: "npm:6.0.0"
     eslint: "npm:8.20.0"
