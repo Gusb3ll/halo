@@ -4752,10 +4752,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"helmet@npm:5.1.0":
-  version: 5.1.0
-  resolution: "helmet@npm:5.1.0"
-  checksum: 0cf189428f0b9c7cf430e92f3de46fda53253906a5d92b7c2bc077e92245a9df4068b0e336a59f85fadc972290b6dbca4c4ea29bad1e3f4d5d1c3b64ad4b3134
+"helmet@npm:5.1.1":
+  version: 5.1.1
+  resolution: "helmet@npm:5.1.1"
+  checksum: 044e89be126250543fc5423cf620449043368fc52e3595a7ac0a292ddeb3a6f36b3bc3975933d46b716cb2c807fdd3c3c69408471c839bf85b70aae788a77143
   languageName: node
   linkType: hard
 
@@ -7084,7 +7084,7 @@ __metadata:
     express: "npm:4.18.1"
     graphql: "npm:15.8.0"
     graphql-voyager: "npm:1.0.0-rc.31"
-    helmet: "npm:5.1.0"
+    helmet: "npm:5.1.1"
     reflect-metadata: "npm:0.1.13"
     type-graphql: "npm:1.1.1"
     winston: "npm:3.8.1"
