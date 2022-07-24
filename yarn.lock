@@ -2706,7 +2706,7 @@ __metadata:
     "@solid-primitives/graphql": "npm:1.1.1"
     "@unocss/preset-mini": "npm:0.44.5"
     "@unocss/vite": "npm:0.44.5"
-    solid-js: "npm:1.4.7"
+    solid-js: "npm:1.4.8"
     typescript: "npm:4.7.4"
     vite: "npm:3.0.2"
     vite-plugin-solid: "npm:2.3.0"
@@ -7229,10 +7229,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:1.4.7":
-  version: 1.4.7
-  resolution: "solid-js@npm:1.4.7"
-  checksum: 3ec1b518b858f7f33093227973190d439b684e1c0efce8db76dbbe49c99236502a6b1a607bccde33b960cf7b726d07729e8e4dc3ecc597597a927a3ea9cab782
+"solid-js@npm:1.4.8":
+  version: 1.4.8
+  resolution: "solid-js@npm:1.4.8"
+  checksum: f85cd5c0d1dcde1763efc57b42dcd1deb6278a93280674c6dc1548e588469770292fd2aa977739a5c6cb134d3888cee2e0d81f9b90769a401908da42bcb6145c
   languageName: node
   linkType: hard
 
