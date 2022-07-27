@@ -1274,114 +1274,114 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-android-arm-eabi@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-android-arm-eabi@npm:1.2.218"
+"@swc/core-android-arm-eabi@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-android-arm-eabi@npm:1.2.219"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-android-arm64@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-android-arm64@npm:1.2.218"
+"@swc/core-android-arm64@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-android-arm64@npm:1.2.219"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-arm64@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-darwin-arm64@npm:1.2.218"
+"@swc/core-darwin-arm64@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-darwin-arm64@npm:1.2.219"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-darwin-x64@npm:1.2.218"
+"@swc/core-darwin-x64@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-darwin-x64@npm:1.2.219"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-freebsd-x64@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-freebsd-x64@npm:1.2.218"
+"@swc/core-freebsd-x64@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-freebsd-x64@npm:1.2.219"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm-gnueabihf@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.2.218"
+"@swc/core-linux-arm-gnueabihf@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.2.219"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.2.218"
+"@swc/core-linux-arm64-gnu@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.2.219"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-musl@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-linux-arm64-musl@npm:1.2.218"
+"@swc/core-linux-arm64-musl@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-linux-arm64-musl@npm:1.2.219"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-linux-x64-gnu@npm:1.2.218"
+"@swc/core-linux-x64-gnu@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-linux-x64-gnu@npm:1.2.219"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-musl@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-linux-x64-musl@npm:1.2.218"
+"@swc/core-linux-x64-musl@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-linux-x64-musl@npm:1.2.219"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.2.218"
+"@swc/core-win32-arm64-msvc@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.2.219"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.2.218"
+"@swc/core-win32-ia32-msvc@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.2.219"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/core-win32-x64-msvc@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core-win32-x64-msvc@npm:1.2.218"
+"@swc/core-win32-x64-msvc@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core-win32-x64-msvc@npm:1.2.219"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core@npm:1.2.218":
-  version: 1.2.218
-  resolution: "@swc/core@npm:1.2.218"
+"@swc/core@npm:1.2.219":
+  version: 1.2.219
+  resolution: "@swc/core@npm:1.2.219"
   dependencies:
-    "@swc/core-android-arm-eabi": "npm:1.2.218"
-    "@swc/core-android-arm64": "npm:1.2.218"
-    "@swc/core-darwin-arm64": "npm:1.2.218"
-    "@swc/core-darwin-x64": "npm:1.2.218"
-    "@swc/core-freebsd-x64": "npm:1.2.218"
-    "@swc/core-linux-arm-gnueabihf": "npm:1.2.218"
-    "@swc/core-linux-arm64-gnu": "npm:1.2.218"
-    "@swc/core-linux-arm64-musl": "npm:1.2.218"
-    "@swc/core-linux-x64-gnu": "npm:1.2.218"
-    "@swc/core-linux-x64-musl": "npm:1.2.218"
-    "@swc/core-win32-arm64-msvc": "npm:1.2.218"
-    "@swc/core-win32-ia32-msvc": "npm:1.2.218"
-    "@swc/core-win32-x64-msvc": "npm:1.2.218"
+    "@swc/core-android-arm-eabi": "npm:1.2.219"
+    "@swc/core-android-arm64": "npm:1.2.219"
+    "@swc/core-darwin-arm64": "npm:1.2.219"
+    "@swc/core-darwin-x64": "npm:1.2.219"
+    "@swc/core-freebsd-x64": "npm:1.2.219"
+    "@swc/core-linux-arm-gnueabihf": "npm:1.2.219"
+    "@swc/core-linux-arm64-gnu": "npm:1.2.219"
+    "@swc/core-linux-arm64-musl": "npm:1.2.219"
+    "@swc/core-linux-x64-gnu": "npm:1.2.219"
+    "@swc/core-linux-x64-musl": "npm:1.2.219"
+    "@swc/core-win32-arm64-msvc": "npm:1.2.219"
+    "@swc/core-win32-ia32-msvc": "npm:1.2.219"
+    "@swc/core-win32-x64-msvc": "npm:1.2.219"
   dependenciesMeta:
     "@swc/core-android-arm-eabi":
       optional: true
@@ -1411,7 +1411,7 @@ __metadata:
       optional: true
   bin:
     swcx: run_swcx.js
-  checksum: 222b4a026a8f4b5786612d68e0a908df6e81b7f03ae1dbafae1b2d18dfc35b499dc46164c5768febe1ec3549fb84e1aedad87334b102f874eb444eb5a5863c80
+  checksum: 08f8d8cfcb87348ef07ea6ad29b21674ce0b9ea9388cd895606cd5314ddde631e4cf8f13b11dfe3bf5c835c99d7255d1986f463d37d4ff3ab076e4617fe22b4c
   languageName: node
   linkType: hard
 
@@ -4668,7 +4668,7 @@ __metadata:
     "@commitlint/cli": "npm:17.0.3"
     "@commitlint/config-conventional": "npm:17.0.3"
     "@swc/cli": "npm:0.1.57"
-    "@swc/core": "npm:1.2.218"
+    "@swc/core": "npm:1.2.219"
     "@typescript-eslint/eslint-plugin": "npm:5.31.0"
     "@typescript-eslint/parser": "npm:5.31.0"
     concurrently: "npm:7.3.0"
