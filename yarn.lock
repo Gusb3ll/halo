@@ -1232,24 +1232,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solid-primitives/graphql@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@solid-primitives/graphql@npm:1.1.1"
+"@solid-primitives/graphql@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@solid-primitives/graphql@npm:1.1.2"
   dependencies:
-    "@solid-primitives/utils": "npm:^2.0.3"
-    node-fetch: "npm:^2.6.6"
+    "@solid-primitives/utils": "npm:^3.0.0"
+    node-fetch: "npm:^2.6.7"
   peerDependencies:
     solid-js: ^1.4.3
-  checksum: d1c1a14faf8b3becc4589c9b0dadf51cabdd4f5d67c397df58bec33d4c76d190e9e76306c78a9fd54b26745432c6d6e2957d9778d2694b16e07d9fab91794614
+  checksum: f3ea94184d08bb735bd2a7d06da5d1e289d3c445b168b910c2eca58456b71e99a323c8c453fe5890cf77bb623a86711815d4da3cffa86642aee9da97bbb0262b
   languageName: node
   linkType: hard
 
-"@solid-primitives/utils@npm:^2.0.3":
-  version: 2.2.1
-  resolution: "@solid-primitives/utils@npm:2.2.1"
+"@solid-primitives/utils@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@solid-primitives/utils@npm:3.0.0"
   peerDependencies:
     solid-js: ^1.4.1
-  checksum: 83907cae0eaa616f188da436300b6b5dd0b1f78cd8facf8479b6de32799352db5fde8961ceb8776aee9717fbe4771a6c4024535fe4c174331d17a33b46486e32
+  checksum: 317203a993e132b4ebcea2a9a1f9e0672e9ba973260d59518e2639ead565ff0a539655d8318c47c094e8f3a7590dabacd65a69b70bd2d8a34d4f60eb354b9721
   languageName: node
   linkType: hard
 
@@ -2703,7 +2703,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "client@workspace:apps/client"
   dependencies:
-    "@solid-primitives/graphql": "npm:1.1.1"
+    "@solid-primitives/graphql": "npm:1.1.2"
     "@unocss/preset-mini": "npm:0.45.1"
     "@unocss/vite": "npm:0.45.1"
     solid-js: "npm:1.4.8"
@@ -6033,7 +6033,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^2.6.6, node-fetch@npm:^2.6.7":
+"node-fetch@npm:^2.6.7":
   version: 2.6.7
   resolution: "node-fetch@npm:2.6.7"
   dependencies:
