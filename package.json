@@ -27,7 +27,7 @@
     "pretest": "npm run lint"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.26.0",
+    "@antfu/eslint-config": "0.26.1",
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
     "@swc/cli": "0.1.57",
