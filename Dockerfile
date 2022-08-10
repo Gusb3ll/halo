@@ -19,6 +19,7 @@ RUN npm i --location=global pnpm
 COPY --from=builder /cunny/node_modules ./node_modules
 COPY --from=builder /cunny/apps/server ./apps/server
 COPY --from=builder /cunny/package.json ./
+COPY --from=builder /cunny/turbo.json ./
 
 EXPOSE 4000
 
