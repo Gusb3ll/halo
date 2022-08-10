@@ -52,6 +52,6 @@ spec:
     spec:
       containers:
       - name: halo-backend
-        image: gusbell/halo:1.0.0-arm64
+        image: gusbell/halo:1.0.0
         ports:
         - containerPort: 4000
