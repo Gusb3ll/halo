@@ -1,13 +1,2 @@
+pnpm-lock.yaml
 node_modules
-*.log
-*.yml
-*.lock
-*.yarn
-
-.yarn/*
-!.yarn/cache
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions

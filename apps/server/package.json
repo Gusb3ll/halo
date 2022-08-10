@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"yarn watch-compile\" \"yarn watch-dev\"",
+    "dev": "concurrently \"pnpm watch-compile\" \"pnpm watch-dev\"",
     "watch-compile": "swc src -w --out-dir dist",
     "watch-dev": "NODE_ENV=development nodemon --watch \"dist/**/*\" -e js dist/server.js",
     "build": "rimraf dist && swc src -d dist",

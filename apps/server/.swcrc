@@ -8,7 +8,9 @@
       "node": 16
     }
   },
-  "exclude": ["(.*).(spec|test).(j|t)s$"],
+  "exclude": [
+    "(.*).(spec|test).(j|t)s$"
+  ],
   "jsc": {
     "baseUrl": "src",
     "target": "es2019",
@@ -20,20 +22,6 @@
       "tsx": false,
       "decorators": true,
       "dynamicImport": true
-    },
-    "paths": {
-      "@interfaces/*": ["interfaces/*"],
-      "@middleware/*": ["middleware/*"],
-      "@resolvers/*": ["resolvers/*"],
-      "@services/*": ["services/*"],
-      "@qltypes/*": ["types/*"],
-      "@utils/*": ["utils/*"],
-      "@interfaces": ["interfaces/index.ts"],
-      "@middleware": ["middleware/index.ts"],
-      "@resolvers": ["resolvers/index.ts"],
-      "@services": ["services/index.ts"],
-      "@qltypes": ["types/index.ts"],
-      "@utils": ["utils/index.ts"]
     }
   }
 }

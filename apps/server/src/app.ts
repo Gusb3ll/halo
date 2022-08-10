@@ -7,7 +7,6 @@ import cors from 'cors'
 import helmet from 'helmet'
 import express from 'express'
 import compression from 'compression'
-import { express as voyagerMiddleware } from 'graphql-voyager/middleware'
 
 const app: Application = express()
 
@@ -20,8 +19,6 @@ app.use(
     crossOriginEmbedderPolicy: false,
   }),
 )
-
-app.use('/voyager', voyagerMiddleware({ endpointUrl: '/graphql' }))
 
 app.get('/', (_req: Request, res: Response) => {
   return res.status(200).sendFile(path.join(__dirname, '../web/index.html'))

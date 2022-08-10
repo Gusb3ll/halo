@@ -1,22 +1,25 @@
 FROM node:16-alpine as builder
 
+RUN npm i --location=global pnpm
+
 WORKDIR /cunny
 
-COPY package.json yarn.lock turbo.json .yarnrc.yml ./
-COPY .yarn ./.yarn
+COPY package.json turbo.json pnpm-lock.yaml ./
 
 COPY apps/server ./apps/server
 
-RUN yarn install
+RUN pnpm install
 
-RUN yarn build:server
+RUN pnpm build:server
 
 FROM node:16-alpine
+
+RUN npm i --location=global pnpm
 
 COPY --from=builder /cunny/node_modules ./node_modules
 COPY --from=builder /cunny/apps/server ./apps/server
 COPY --from=builder /cunny/package.json ./
 
-EXPOSE 8080
+EXPOSE 4000
 
-CMD ["yarn", "start:server"]
+CMD ["pnpm", "start:server"]

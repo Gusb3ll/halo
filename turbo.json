@@ -6,16 +6,16 @@
       "cache": false
     },
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": [".output/**", "dist/**"]
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        ".output/**",
+        "dist/**"
+      ]
     },
-    "lint": {
-      
-    },
-    "deploy": {
-      "dependsOn": ["build", "lint"],
-      "outputs": []
-    }
+    "lint": {},
+    "start": {}
   },
   "globalDependencies": [
     ".env"

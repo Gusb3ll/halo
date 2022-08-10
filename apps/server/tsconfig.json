@@ -9,26 +9,19 @@
     "forceConsistentCasingInFileNames": true,
     "target": "ESNext",
     "module": "CommonJS",
-    "lib": ["ESNext", "ESNext.AsyncIterable"],
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable"
+    ],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "baseUrl": "src",
     "outDir": "dist",
-    "paths": {
-      "@interfaces/*": ["interfaces/*"],
-      "@middleware/*": ["middleware/*"],
-      "@resolvers/*": ["resolvers/*"],
-      "@services/*": ["services/*"],
-      "@qltypes/*": ["types/*"],
-      "@utils/*": ["utils/*"],
-      "@interfaces": ["interfaces/index.ts"],
-      "@middleware": ["middleware/index.ts"],
-      "@resolvers": ["resolvers/index.ts"],
-      "@services": ["services/index.ts"],
-      "@qltypes": ["types/index.ts"],
-      "@utils": ["utils/index.ts"]
-    }
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

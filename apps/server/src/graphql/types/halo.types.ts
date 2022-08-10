@@ -1,6 +1,6 @@
 import { Field, ObjectType } from 'type-graphql'
 
-import { baseResponse } from '@qltypes/default.types'
+import { baseResponse } from './default.types'
 
 @ObjectType({ implements: baseResponse })
 export class getCunnyResponse extends baseResponse {
