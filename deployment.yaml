@@ -8,10 +8,10 @@ metadata:
     traefik.ingress.kubernetes.io/redirect-entry-point: https
 spec:
   rules:
-  - host: api.millennium.sh
+  - host: halo-api.millennium.sh
     http:
       paths:
-      - path: /halo
+      - path: /
         pathType: Prefix
         backend:
           service:
@@ -20,7 +20,7 @@ spec:
               number: 80
   tls:
     - hosts:
-        - api.millennium.sh
+        - halo-api.millennium.sh
 ---
 apiVersion: v1
 kind: Service
