@@ -4,7 +4,7 @@ RUN npm i --location=global pnpm
 
 WORKDIR /cunny
 
-COPY package.json turbo.json pnpm-lock.yaml ./
+COPY package.json turbo.json pnpm-lock.yaml pnpm-workspace.yaml .npmrc ./
 
 COPY apps/server ./apps/server
 
