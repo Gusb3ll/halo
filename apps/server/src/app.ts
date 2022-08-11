@@ -1,6 +1,6 @@
 import path from 'path'
 
-import type { Application, Request, Response } from 'express'
+import type { Application } from 'express'
 
 import 'dotenv/config'
 import cors from 'cors'
@@ -20,8 +20,6 @@ app.use(
   }),
 )
 
-app.get('/', (_req: Request, res: Response) => {
-  return res.status(200).sendFile(path.join(__dirname, '../web/index.html'))
-})
+app.use('/', express.static(path.join(__dirname, '../web')))
 
 export default app
