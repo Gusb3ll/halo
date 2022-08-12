@@ -14,7 +14,7 @@
     "@solid-primitives/graphql": "1.1.2",
     "@unocss/preset-mini": "0.45.6",
     "@unocss/vite": "0.45.6",
-    "vite": "3.0.6",
+    "vite": "3.0.7",
     "vite-plugin-solid": "2.3.0"
   }
 }
