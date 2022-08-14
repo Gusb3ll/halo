@@ -30,7 +30,7 @@ importers:
 
   apps/client:
     specifiers:
-      '@solid-primitives/graphql': 1.1.2
+      '@solid-primitives/graphql': 1.2.0
       '@unocss/preset-mini': 0.45.6
       '@unocss/vite': 0.45.6
       solid-js: 1.4.8
@@ -39,7 +39,7 @@ importers:
     dependencies:
       solid-js: 1.4.8
     devDependencies:
-      '@solid-primitives/graphql': 1.1.2_solid-js@1.4.8
+      '@solid-primitives/graphql': 1.2.0_solid-js@1.4.8
       '@unocss/preset-mini': 0.45.6
       '@unocss/vite': 0.45.6_vite@3.0.7
       vite: 3.0.7
@@ -699,6 +699,14 @@ packages:
       tslib: 2.4.0
     dev: false
 
+  /@graphql-typed-document-node/core/3.1.1_graphql@16.5.0:
+    resolution: {integrity: sha512-NQ17ii0rK1b34VZonlmT2QMJFI70m0TRwbknO/ihlbatXyaktDhN/98vBiUU6kNBPljqGqyIrl2T4nY2RpFANg==}
+    peerDependencies:
+      graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
+    dependencies:
+      graphql: 16.5.0
+    dev: true
+
   /@humanwhocodes/config-array/0.10.4:
     resolution: {integrity: sha512-mXAIHxZT3Vcpg83opl1wGlVZ9xydbfZO3r5YfRSH6Gpp2J/PfdBP0wbDa2sO6/qRbcalpoevVyW6A/fI6LfeMw==}
     engines: {node: '>=10.10.0'}
@@ -836,12 +844,14 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@solid-primitives/graphql/1.1.2_solid-js@1.4.8:
-    resolution: {integrity: sha512-R5c9qYRiqGOGB79nTwUjtdJDtJaJUXHSqFFfUEWu8OaiS5xohj6uSYDDLVI6qd79dESRpkswfjXVhif3Izs/9Q==}
+  /@solid-primitives/graphql/1.2.0_solid-js@1.4.8:
+    resolution: {integrity: sha512-YlHqsP8AE/f1MRD2uUrS2XQ03BwKYFDIEZO7MI4CrxNWBG50VPFGii7shD7aO1NdBeNS241QLQbV/MBjrkcstg==}
     peerDependencies:
       solid-js: ^1.4.3
     dependencies:
+      '@graphql-typed-document-node/core': 3.1.1_graphql@16.5.0
       '@solid-primitives/utils': 3.0.1_solid-js@1.4.8
+      graphql: 16.5.0
       node-fetch: 2.6.7
       solid-js: 1.4.8
     transitivePeerDependencies:
@@ -2970,6 +2980,11 @@ packages:
     resolution: {integrity: sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw==}
     engines: {node: '>= 10.x'}
     dev: false
+
+  /graphql/16.5.0:
+    resolution: {integrity: sha512-qbHgh8Ix+j/qY+a/ZcJnFQ+j8ezakqPiHwPiZhV/3PgGlgf96QMBB5/f2rkiC9sgLoy/xvT6TSiaf2nTHJh5iA==}
+    engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
+    dev: true
 
   /gzip-size/6.0.0:
     resolution: {integrity: sha512-ax7ZYomf6jqPTQ4+XCpUGyXKHk5WweS+e05MBO4/y3WJ5RkmPXNKvX+bx1behVILVwr6JSQvZAku021CHPXG3Q==}
