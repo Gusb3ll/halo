@@ -28,7 +28,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "0.26.1",
     "@swc/cli": "0.1.57",
-    "@swc/core": "1.2.237",
+    "@swc/core": "1.2.239",
     "concurrently": "7.3.0",
     "dotenv": "16.0.1",
     "dotenv-cli": "6.0.0",
