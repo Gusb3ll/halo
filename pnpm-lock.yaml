@@ -33,17 +33,17 @@ importers:
       '@solid-primitives/graphql': 1.3.0
       '@unocss/preset-mini': 0.45.14
       '@unocss/vite': 0.45.14
-      solid-js: 1.5.3
+      solid-js: 1.5.4
       vite: 3.0.9
       vite-plugin-solid: 2.3.0
     dependencies:
-      solid-js: 1.5.3
+      solid-js: 1.5.4
     devDependencies:
-      '@solid-primitives/graphql': 1.3.0_solid-js@1.5.3
+      '@solid-primitives/graphql': 1.3.0_solid-js@1.5.4
       '@unocss/preset-mini': 0.45.14
       '@unocss/vite': 0.45.14_vite@3.0.9
       vite: 3.0.9
-      vite-plugin-solid: 2.3.0_solid-js@1.5.3+vite@3.0.9
+      vite-plugin-solid: 2.3.0_solid-js@1.5.4+vite@3.0.9
 
   apps/server:
     specifiers:
@@ -849,26 +849,26 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@solid-primitives/graphql/1.3.0_solid-js@1.5.3:
+  /@solid-primitives/graphql/1.3.0_solid-js@1.5.4:
     resolution: {integrity: sha512-OM1Q2qnI7aV3bcQh+1lPEW8V6qy9o0oQhHdRVo5EQtGqRNZIG3ze/MCaj/Voh906tDlMEa78GGyu59IyshdHpw==}
     peerDependencies:
       solid-js: ^1.5.0
     dependencies:
       '@graphql-typed-document-node/core': 3.1.1_graphql@16.5.0
-      '@solid-primitives/utils': 3.0.2_solid-js@1.5.3
+      '@solid-primitives/utils': 3.0.2_solid-js@1.5.4
       graphql: 16.5.0
       node-fetch: 2.6.7
-      solid-js: 1.5.3
+      solid-js: 1.5.4
     transitivePeerDependencies:
       - encoding
     dev: true
 
-  /@solid-primitives/utils/3.0.2_solid-js@1.5.3:
+  /@solid-primitives/utils/3.0.2_solid-js@1.5.4:
     resolution: {integrity: sha512-LCU3tVrJmyRqJ0ocG5uCEuUNqmGkcAC+cWpDEE49AuvtehkdQfv4CfqvdNJgs3eoQRQhLOrVcgd1bHFJY4lsrQ==}
     peerDependencies:
       solid-js: ^1.4.1
     dependencies:
-      solid-js: 1.5.3
+      solid-js: 1.5.4
     dev: true
 
   /@swc/cli/0.1.57_@swc+core@1.2.246:
@@ -4152,12 +4152,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-js/1.5.3:
-    resolution: {integrity: sha512-F6LCJie+ZiGfvbHsqJ0UwDiSYN+2rR5CUGK7siU2fGptCDalMKL4mZVumQlwfq+wBSWlMt1BoB/OcjnYkDzBhg==}
+  /solid-js/1.5.4:
+    resolution: {integrity: sha512-+65anSHhH27htkhP5LuC912fviMIckgc7/yN+WWrKhS9Kp3dvtDNl5/m4GWX1lpCvcubjShqJjGt16HET5z5Ig==}
     dependencies:
       csstype: 3.1.0
 
-  /solid-refresh/0.4.1_solid-js@1.5.3:
+  /solid-refresh/0.4.1_solid-js@1.5.4:
     resolution: {integrity: sha512-v3tD/OXQcUyXLrWjPW1dXZyeWwP7/+GQNs8YTL09GBq+5FguA6IejJWUvJDrLIA4M0ho9/5zK2e9n+uy+4488g==}
     peerDependencies:
       solid-js: ^1.3
@@ -4165,7 +4165,7 @@ packages:
       '@babel/generator': 7.18.12
       '@babel/helper-module-imports': 7.18.6
       '@babel/types': 7.18.10
-      solid-js: 1.5.3
+      solid-js: 1.5.4
     dev: true
 
   /source-map-js/1.0.2:
@@ -4646,7 +4646,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /vite-plugin-solid/2.3.0_solid-js@1.5.3+vite@3.0.9:
+  /vite-plugin-solid/2.3.0_solid-js@1.5.4+vite@3.0.9:
     resolution: {integrity: sha512-N2sa54C3UZC2nN5vpj5o6YP+XdIAZW6n6xv8OasxNAcAJPFeZT7EOVvumL0V4c8hBz1yuYniMWdESY8807fVSg==}
     peerDependencies:
       solid-js: ^1.3.17
@@ -4656,8 +4656,8 @@ packages:
       '@babel/preset-typescript': 7.18.6_@babel+core@7.18.10
       babel-preset-solid: 1.4.8_@babel+core@7.18.10
       merge-anything: 5.0.2
-      solid-js: 1.5.3
-      solid-refresh: 0.4.1_solid-js@1.5.3
+      solid-js: 1.5.4
+      solid-refresh: 0.4.1_solid-js@1.5.4
       vite: 3.0.9
     transitivePeerDependencies:
       - supports-color
