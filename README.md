@@ -3,21 +3,21 @@
 ## Development
 
 ```bash
-yarn install
+pnpm install
 
 # client only
-yarn dev:client
+pnpm dev:client
 
 # server only
-yarn dev:server
+pnpm dev:server
 ```
 
 ## Production
 
 ```bash
-yarn build
+pnpm build
 
-yarn start
+pnpm start
 ```
 
 ##
