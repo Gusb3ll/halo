@@ -1,4 +1,4 @@
-FROM node:16-alpine as builder
+FROM node:18-alpine as builder
 
 RUN npm i --location=global pnpm
 
@@ -12,7 +12,7 @@ RUN pnpm install
 
 RUN pnpm build:server
 
-FROM node:16-alpine
+FROM node:18-alpine
 
 RUN npm i --location=global pnpm
 
