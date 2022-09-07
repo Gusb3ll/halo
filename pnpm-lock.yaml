@@ -7,7 +7,7 @@ importers:
       '@antfu/eslint-config': 0.26.3
       '@swc/cli': 0.1.57
       '@swc/core': 1.2.248
-      concurrently: 7.3.0
+      concurrently: 7.4.0
       dotenv: 16.0.2
       dotenv-cli: 6.0.0
       eslint: 8.23.0
@@ -19,7 +19,7 @@ importers:
       '@antfu/eslint-config': 0.26.3_yqf6kl63nyoq5megxukfnom5rm
       '@swc/cli': 0.1.57_@swc+core@1.2.248
       '@swc/core': 1.2.248
-      concurrently: 7.3.0
+      concurrently: 7.4.0
       dotenv: 16.0.2
       dotenv-cli: 6.0.0
       eslint: 8.23.0
@@ -1798,8 +1798,8 @@ packages:
   /concat-map/0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  /concurrently/7.3.0:
-    resolution: {integrity: sha512-IiDwm+8DOcFEInca494A8V402tNTQlJaYq78RF2rijOrKEk/AOHTxhN4U1cp7GYKYX5Q6Ymh1dLTBlzIMN0ikA==}
+  /concurrently/7.4.0:
+    resolution: {integrity: sha512-M6AfrueDt/GEna/Vg9BqQ+93yuvzkSKmoTixnwEJkH0LlcGrRC2eCmjeG1tLLHIYfpYJABokqSGyMcXjm96AFA==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
