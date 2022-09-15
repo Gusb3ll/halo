@@ -15,6 +15,6 @@
     "@unocss/preset-mini": "0.45.21",
     "@unocss/vite": "0.45.21",
     "vite": "3.1.1",
-    "vite-plugin-solid": "2.3.0"
+    "vite-plugin-solid": "2.3.1"
   }
 }
