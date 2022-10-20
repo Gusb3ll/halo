@@ -2,7 +2,7 @@
   "name": "halo",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@7.13.5",
+  "packageManager": "pnpm@7.13.6",
   "description": "",
   "author": "",
   "license": "MIT",
