@@ -30,7 +30,7 @@ importers:
 
   apps/client:
     specifiers:
-      '@solid-primitives/graphql': 1.4.1
+      '@solid-primitives/graphql': 1.4.2
       '@unocss/preset-mini': 0.46.1
       '@unocss/vite': 0.46.0
       solid-js: 1.6.0
@@ -39,7 +39,7 @@ importers:
     dependencies:
       solid-js: 1.6.0
     devDependencies:
-      '@solid-primitives/graphql': 1.4.1_solid-js@1.6.0
+      '@solid-primitives/graphql': 1.4.2_solid-js@1.6.0
       '@unocss/preset-mini': 0.46.1
       '@unocss/vite': 0.46.0_vite@3.2.0
       vite: 3.2.0
@@ -844,21 +844,21 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@solid-primitives/graphql/1.4.1_solid-js@1.6.0:
-    resolution: {integrity: sha512-25LVnsIBf6Y3TgqmFxVYn7UK5U5QlQeaSQD5hJJVYfThQH4BUMFQF4z9AS/b8qdRJ33Sh1j925clRDzTi5FakA==}
+  /@solid-primitives/graphql/1.4.2_solid-js@1.6.0:
+    resolution: {integrity: sha512-OjA8e7y/v2FsgL5gghPo3Y8y2uBhrHd8u+7htNOcVo3zTbwyxIp+Pab2quKxEc4vDec9Q/4ut3gpBNb68dcLzw==}
     peerDependencies:
-      solid-js: ^1.5.0
+      solid-js: ^1.6.0
     dependencies:
       '@graphql-typed-document-node/core': 3.1.1_graphql@16.6.0
-      '@solid-primitives/utils': 3.1.0_solid-js@1.6.0
+      '@solid-primitives/utils': 4.0.0_solid-js@1.6.0
       graphql: 16.6.0
       solid-js: 1.6.0
     dev: true
 
-  /@solid-primitives/utils/3.1.0_solid-js@1.6.0:
-    resolution: {integrity: sha512-/rerChcwgFtHEgVCCBY7BXGHh7a83HcIAzR8QhXJ789geIVbBs2YxHF4UUZlG7ec00NKSfvO3+sQquN/xKQLMw==}
+  /@solid-primitives/utils/4.0.0_solid-js@1.6.0:
+    resolution: {integrity: sha512-fGsJy8Z8YiwogpiezD7TWjI62UCb0JAHJWdoXWGrggrn4bfToZotKkabiB0IVFMkWVE1ZcrkvZT3bkmqGnK0ng==}
     peerDependencies:
-      solid-js: ^1.5.0
+      solid-js: ^1.6.0
     dependencies:
       solid-js: 1.6.0
     dev: true
