@@ -55,7 +55,7 @@ importers:
       danbooru: 3.1.0
       express: 4.18.2
       graphql: 16.6.0
-      helmet: 6.0.0
+      helmet: 6.0.1
       reflect-metadata: 0.1.13
       type-graphql: 1.1.1
     dependencies:
@@ -66,7 +66,7 @@ importers:
       danbooru: 3.1.0
       express: 4.18.2
       graphql: 16.6.0
-      helmet: 6.0.0
+      helmet: 6.0.1
       reflect-metadata: 0.1.13
       type-graphql: 1.1.1_rq55dqxpbhywxwjvxttjguy4yy
     devDependencies:
@@ -2978,8 +2978,8 @@ packages:
     dependencies:
       function-bind: 1.1.1
 
-  /helmet/6.0.0:
-    resolution: {integrity: sha512-FO9RpR1wNJepH/GbLPQVtkE2eESglXL641p7SdyoT4LngHFJcZheHMoyUcjCZF4qpuMMO1u5q6RK0l9Ux8JBcg==}
+  /helmet/6.0.1:
+    resolution: {integrity: sha512-8wo+VdQhTMVBMCITYZaGTbE4lvlthelPYSvoyNvk4RECTmrVjMerp9RfUOQXZWLvCcAn1pKj7ZRxK4lI9Alrcw==}
     engines: {node: '>=14.0.0'}
     dev: false
 
