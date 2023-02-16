@@ -32,7 +32,7 @@ importers:
     specifiers:
       '@solid-primitives/graphql': 1.5.2
       '@unocss/preset-mini': 0.49.5
-      '@unocss/vite': 0.49.4
+      '@unocss/vite': 0.49.5
       solid-js: 1.6.11
       vite: 4.1.1
       vite-plugin-solid: 2.5.0
@@ -41,7 +41,7 @@ importers:
     devDependencies:
       '@solid-primitives/graphql': 1.5.2_solid-js@1.6.11
       '@unocss/preset-mini': 0.49.5
-      '@unocss/vite': 0.49.4_vite@4.1.1
+      '@unocss/vite': 0.49.5_vite@4.1.1
       vite: 4.1.1
       vite-plugin-solid: 2.5.0_solid-js@1.6.11+vite@4.1.1
 
@@ -1505,24 +1505,20 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@unocss/config/0.49.4:
-    resolution: {integrity: sha512-Uaifd1QhqpTcqCg+hFR4XuvOck/EbdxcT4qaDuR/VGPfflWcpe6Bw75H7A++emM0LcCGTJ/e54sSpJ7OuYfU4w==}
+  /@unocss/config/0.49.5:
+    resolution: {integrity: sha512-QilkdXmHkI0qJKOxk3IQ8B9bo5ndh8m/BF8gmgqdPoPtN3g1eUqc3NRf73vyInRF0NScjPlRaj5tINX3NexXMw==}
     engines: {node: '>=14'}
     dependencies:
-      '@unocss/core': 0.49.4
+      '@unocss/core': 0.49.5
       unconfig: 0.3.7
-    dev: true
-
-  /@unocss/core/0.49.4:
-    resolution: {integrity: sha512-1RNV+KBgRo0uuaa5Etwc5cfxkdhJelIXRFz3LeXBOU4dIrTzBAMr352M+oZ/nnkbnAROGf3icTE0UcmSaCA2RQ==}
     dev: true
 
   /@unocss/core/0.49.5:
     resolution: {integrity: sha512-8CSIZu8EIT8bulfyQ7OtUbKZpUSpPFMuqP17qvtAZlzolSt2xDM4pfY5hohISfu3toyApAJV6M7zLRAj0JFLuA==}
     dev: true
 
-  /@unocss/inspector/0.49.4:
-    resolution: {integrity: sha512-Irp0c+SsS2lxeBouhZe91ZRhd2VHVjrnIr7Ns+re3mhZ0WtBW1kVRxN3+45Cj07jQiRgPe/fms13MSuMgtFzUQ==}
+  /@unocss/inspector/0.49.5:
+    resolution: {integrity: sha512-FZZ5pVW+FsyRGE9cQj/gdzpk87yFNfHxs4tN92j3GM1/MJBXRyH1td4HuEAVjUj3ZZ1huAlxIpx4n6nng2pk1w==}
     dependencies:
       gzip-size: 6.0.0
       sirv: 2.0.2
@@ -1534,32 +1530,32 @@ packages:
       '@unocss/core': 0.49.5
     dev: true
 
-  /@unocss/scope/0.49.4:
-    resolution: {integrity: sha512-0gXJXarKNpUtVTFjlHXkbTaw1jSBARR4KZPxjBGMO+LXW0huj+SVRdnadJCkFZy0wKBTb/28qShdiHk/sToLHw==}
+  /@unocss/scope/0.49.5:
+    resolution: {integrity: sha512-+dT7Q47oiHBfLT97qlXH37OqvD776djAFHjy4hua38yQnRdB/wsn0sSWyEx148yul5hBZxvEbKoYOGRreYCDjA==}
     dev: true
 
-  /@unocss/transformer-directives/0.49.4:
-    resolution: {integrity: sha512-ftnZit+uo2b40C1+aUTeaA1qUSMyU0pVmS7JnZNjJ1clGhSV1d7c0/xeY0fWh9ZIfF1klmritWO+om29qaPjjw==}
+  /@unocss/transformer-directives/0.49.5:
+    resolution: {integrity: sha512-E5uprn2PWa++IsQdogF1Ak0wjKhO1A3ecs59GEc6tQhsLE7CCJPwcHpQHEOimV9YyRkIV6wLbxDSxJHwI9uLcw==}
     dependencies:
-      '@unocss/core': 0.49.4
+      '@unocss/core': 0.49.5
       css-tree: 2.3.1
     dev: true
 
-  /@unocss/vite/0.49.4_vite@4.1.1:
-    resolution: {integrity: sha512-5CUs6q9T3bTIQw0wZVAhAo0FLihUbPfMArjhoOP0N9Xz0NufErBDXm5Bg7IBrXoU3qbSQDtEvqy2743pqqV6yw==}
+  /@unocss/vite/0.49.5_vite@4.1.1:
+    resolution: {integrity: sha512-KFJRqKC6zygTcv6otkt581urxPU2KPw4jD84N7qwsdJkEwRPfsbRPeboBGCQeroMCpfntAojTdCXkJbEsu1jTA==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0
     dependencies:
       '@ampproject/remapping': 2.2.0
       '@rollup/pluginutils': 5.0.2
-      '@unocss/config': 0.49.4
-      '@unocss/core': 0.49.4
-      '@unocss/inspector': 0.49.4
-      '@unocss/scope': 0.49.4
-      '@unocss/transformer-directives': 0.49.4
+      '@unocss/config': 0.49.5
+      '@unocss/core': 0.49.5
+      '@unocss/inspector': 0.49.5
+      '@unocss/scope': 0.49.5
+      '@unocss/transformer-directives': 0.49.5
       chokidar: 3.5.3
       fast-glob: 3.2.12
-      magic-string: 0.27.0
+      magic-string: 0.29.0
       vite: 4.1.1
     transitivePeerDependencies:
       - rollup
@@ -3824,8 +3820,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /magic-string/0.27.0:
-    resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
+  /magic-string/0.29.0:
+    resolution: {integrity: sha512-WcfidHrDjMY+eLjlU+8OvwREqHwpgCeKVBUpQ3OhYYuvfaYCUgcbuBzappNzZvg/v8onU3oQj+BYpkOJe9Iw4Q==}
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.14
