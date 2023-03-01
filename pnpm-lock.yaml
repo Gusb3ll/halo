@@ -31,7 +31,7 @@ importers:
   apps/client:
     specifiers:
       '@solid-primitives/graphql': 1.5.3
-      '@unocss/preset-mini': 0.50.2
+      '@unocss/preset-mini': 0.50.3
       '@unocss/vite': 0.50.2
       solid-js: 1.6.11
       vite: 4.1.4
@@ -40,7 +40,7 @@ importers:
       solid-js: 1.6.11
     devDependencies:
       '@solid-primitives/graphql': 1.5.3_solid-js@1.6.11
-      '@unocss/preset-mini': 0.50.2
+      '@unocss/preset-mini': 0.50.3
       '@unocss/vite': 0.50.2_vite@4.1.4
       vite: 4.1.4
       vite-plugin-solid: 2.5.0_solid-js@1.6.11+vite@4.1.4
@@ -1522,6 +1522,10 @@ packages:
     resolution: {integrity: sha512-Z8m7uRDr3cM8y/Q/LKabNZc37GHJJYFjrp0vYNn8FJhzILqVNZCb4BnJNmGgaiGGSmfQVguK8Gqvs1jdb7RqeA==}
     dev: true
 
+  /@unocss/core/0.50.3:
+    resolution: {integrity: sha512-bS9FpI7+kQ2LijNucTze7grA+HPk556ctGNUNYt/CMDkFt/+7beV0j4QQMp2g/JEZOgPtFHusHJfSNcAhkDL4Q==}
+    dev: true
+
   /@unocss/inspector/0.50.2:
     resolution: {integrity: sha512-JAZUqARXeAnqEilKZbNrzFJu8oGXmoIXtZjQgFPCtblQkNGcXplXAn2HsVPZ3Klep8D8jc44J/rQwlwv/KwxcA==}
     dependencies:
@@ -1529,10 +1533,10 @@ packages:
       sirv: 2.0.2
     dev: true
 
-  /@unocss/preset-mini/0.50.2:
-    resolution: {integrity: sha512-yu09LTt7fk9+XW3L4gZak4xlW9scaAysxG+CEgTumTmoXApjiygwt3WzY0TauLiWEww7TH+J6z2bmHC0+mmkFQ==}
+  /@unocss/preset-mini/0.50.3:
+    resolution: {integrity: sha512-QZDNM0Ivd9rS9UB3u+A2lTl9tIQxVJkdIUhJ9R6uINIqK0o7+B9X2LN+Kn14x1RsWympzVPk1KaRty+OWdSDOw==}
     dependencies:
-      '@unocss/core': 0.50.2
+      '@unocss/core': 0.50.3
     dev: true
 
   /@unocss/scope/0.50.2:
