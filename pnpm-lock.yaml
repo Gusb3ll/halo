@@ -30,7 +30,7 @@ importers:
 
   apps/client:
     specifiers:
-      '@solid-primitives/graphql': 1.5.4
+      '@solid-primitives/graphql': 1.5.5
       '@unocss/preset-mini': 0.50.4
       '@unocss/vite': 0.50.4
       solid-js: 1.6.13
@@ -39,7 +39,7 @@ importers:
     dependencies:
       solid-js: 1.6.13
     devDependencies:
-      '@solid-primitives/graphql': 1.5.4_solid-js@1.6.13
+      '@solid-primitives/graphql': 1.5.5_solid-js@1.6.13
       '@unocss/preset-mini': 0.50.4
       '@unocss/vite': 0.50.4_vite@4.1.4
       vite: 4.1.4
@@ -1079,8 +1079,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@solid-primitives/graphql/1.5.4_solid-js@1.6.13:
-    resolution: {integrity: sha512-1Dw4d6BdVnMYYKXv7VkBfyKkRMBQwnvqhDiU/HUqViccF1WEo9O+jkW7gQr7Y3cBJp1z1umG+TwlrCHWUlRS7A==}
+  /@solid-primitives/graphql/1.5.5_solid-js@1.6.13:
+    resolution: {integrity: sha512-6jpl+7RqIXbhJnXmFvzkGyYUcGNdExkFdvW0DdOLrkUezgaTHwiQ0cn4ym6ZtcLgJAtbXTwxL+LkEJL6yt91jA==}
     peerDependencies:
       solid-js: ^1.6.0
     dependencies:
