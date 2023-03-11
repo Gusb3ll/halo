@@ -8,7 +8,7 @@
     "start": "vite preview"
   },
   "dependencies": {
-    "solid-js": "1.6.13"
+    "solid-js": "1.6.14"
   },
   "devDependencies": {
     "@solid-primitives/graphql": "1.5.5",
