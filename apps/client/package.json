@@ -11,7 +11,7 @@
     "solid-js": "1.7.0"
   },
   "devDependencies": {
-    "@solid-primitives/graphql": "1.5.6",
+    "@solid-primitives/graphql": "1.5.7",
     "@unocss/preset-mini": "0.50.6",
     "@unocss/vite": "0.50.6",
     "vite": "4.2.1",
