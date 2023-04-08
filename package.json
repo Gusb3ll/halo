@@ -1,28 +1,20 @@
 {
   "name": "halo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "packageManager": "pnpm@7.31.0",
-  "description": "",
-  "author": "",
-  "license": "MIT",
-  "repository": "https://github.com/gusb3ll/halo",
-  "engines": {
-    "npm": ">=7.0.0",
-    "node": ">=16.0.0"
-  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "dotenv -- turbo run dev --parallel",
     "dev:client": "dotenv -- turbo run dev --filter=\"./apps/client\"",
-    "dev:server": "dotenv -- turbo run dev --filter=\"./apps/*\" --filter=\"!./apps/client\"",
+    "dev:server": "dotenv -- turbo run dev --filter=\"./apps/server\"",
     "build": "dotenv -- turbo run build",
     "build:package": "dotenv -- turbo run build --filter=\"./packages/*\"",
     "build:client": "dotenv -- turbo run build --filter=\"./apps/client\"",
-    "build:server": "dotenv -- turbo run build --filter=\"./apps/*\" --filter=\"!./apps/client\"",
+    "build:server": "dotenv -- turbo run build --filter=\"./apps/server\"",
     "start": "dotenv -- turbo run start",
     "start:client": "dotenv -- turbo run start --filter=\"./apps/client\"",
-    "start:server": "dotenv -- turbo run start --filter=\"./apps/*\" --filter=\"!./apps/client\"",
+    "start:server": "dotenv -- turbo run start --filter=\"./apps/server\"",
     "lint": "eslint . --fix"
   },
   "devDependencies": {

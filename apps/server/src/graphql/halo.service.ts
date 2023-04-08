@@ -1,6 +1,4 @@
-import Danbooru from 'danbooru'
-
-const booru = new Danbooru()
+import axios from 'axios'
 
 interface ICunnySauce {
   url: string
@@ -9,10 +7,7 @@ interface ICunnySauce {
 
 export async function getCunnySauce(): Promise<ICunnySauce> {
   const pageIndex = Math.floor(Math.random() * 1000)
-  const data: ICunnySauce = await booru.posts({ tags: 'blue_archive', page: pageIndex, limit: 20 }).then((posts) => {
-    const { file_url, md5 } = posts[Math.floor(Math.random() * 20)]
-    return { url: file_url, name: md5 }
-  })
+  const { data } = await axios.get(`https://danbooru.donmai.us/posts/random.json?tags=blue_archive&page=${pageIndex}`)
 
-  return data
+  return { url: data.file_url, name: data.md5 }
 }
