@@ -19,15 +19,15 @@ const App: Component = () => {
         </button>
         <Suspense fallback={<div class="text-2xl text-cyan">loading</div>}>
           <Show when={data()}>
-          {({ getCunny }) => (
-            (getCunny.ok && getCunny.url && getCunny.name)
-              ? <a href={getCunny.url} target="_blank" rel="noreferrer">
-                  <img src={getCunny.url} alt={getCunny.name} class="max-w-[90vw]" />
+            {data => (
+              (data().getCunny.ok && data().getCunny.url && data().getCunny.name)
+                ? <a href={data().getCunny.url} target="_blank" rel="noreferrer">
+                  <img src={data().getCunny.url} alt={data().getCunny.name} class="max-w-[90vw]" />
                 </a>
-              : <h1 class="text-2xl text-cyan">
+                : <h1 class="text-2xl text-cyan">
                   Error loading image, probably rate limit
                 </h1>
-          )}
+            )}
           </Show>
         </Suspense>
         <footer class="flex flex-col justify-center items-center">
