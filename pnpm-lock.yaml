@@ -56,7 +56,7 @@ importers:
       cors: 2.8.5
       express: 4.18.2
       graphql: 15.8.0
-      helmet: 6.1.1
+      helmet: 6.1.2
       reflect-metadata: 0.1.13
       type-graphql: 1.1.1
     dependencies:
@@ -68,7 +68,7 @@ importers:
       cors: 2.8.5
       express: 4.18.2
       graphql: 15.8.0
-      helmet: 6.1.1
+      helmet: 6.1.2
       reflect-metadata: 0.1.13
       type-graphql: 1.1.1_yxlhq5elwzdhphazhcbwh6wmlq
     devDependencies:
@@ -3708,8 +3708,8 @@ packages:
     dependencies:
       function-bind: 1.1.1
 
-  /helmet/6.1.1:
-    resolution: {integrity: sha512-+lpiPR2U5Z9gZnJiLEhK+ta7Z+NSbWyyQCdOP051T8vpPOfd4I5p66cdTgt5hsRXYbJjWNwmga3zjwTHr2rSpw==}
+  /helmet/6.1.2:
+    resolution: {integrity: sha512-n39kcD7ntw83PMeqqjSOPrY/VpIH+XniLoxFXLfK6UCgTTN9XkOGp2YWKB/zfgZS+zRQdiHo3fgNmy0l5xoFPg==}
     engines: {node: '>=14.0.0'}
     dev: false
 
