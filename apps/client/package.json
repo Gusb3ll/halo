@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@solid-primitives/graphql": "1.5.7",
-    "@unocss/preset-mini": "0.50.8",
+    "@unocss/preset-mini": "0.51.2",
     "@unocss/vite": "0.50.8",
     "vite": "4.2.1",
     "vite-plugin-solid": "2.7.0"
