@@ -24,7 +24,7 @@
     "concurrently": "8.0.1",
     "dotenv": "16.0.3",
     "dotenv-cli": "7.2.1",
-    "eslint": "8.39.0",
+    "eslint": "8.40.0",
     "nodemon": "2.0.22",
     "rimraf": "5.0.0",
     "turbo": "1.9.3",
