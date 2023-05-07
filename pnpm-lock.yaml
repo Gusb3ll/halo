@@ -84,8 +84,8 @@ importers:
         specifier: 15.8.0
         version: 15.8.0
       helmet:
-        specifier: 6.1.5
-        version: 6.1.5
+        specifier: 6.2.0
+        version: 6.2.0
       reflect-metadata:
         specifier: 0.1.13
         version: 0.1.13
@@ -3358,8 +3358,8 @@ packages:
     dependencies:
       function-bind: 1.1.1
 
-  /helmet@6.1.5:
-    resolution: {integrity: sha512-UgAvdoG0BhF9vcCh/j0bWtElo2ZHHk6OzC98NLCM6zK03DEVSM0vUAtT7iR+oTo2Mi6sGelAH3tL6B/uUWxV4g==}
+  /helmet@6.2.0:
+    resolution: {integrity: sha512-DWlwuXLLqbrIOltR6tFQXShj/+7Cyp0gLi6uAb8qMdFh/YBBFbKSgQ6nbXmScYd8emMctuthmgIa7tUfo9Rtyg==}
     engines: {node: '>=14.0.0'}
     dev: false
 
