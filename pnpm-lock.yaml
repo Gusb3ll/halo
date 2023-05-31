@@ -52,8 +52,8 @@ importers:
         specifier: 1.5.9
         version: 1.5.9(solid-js@1.7.6)
       '@unocss/preset-mini':
-        specifier: 0.52.5
-        version: 0.52.5
+        specifier: 0.52.7
+        version: 0.52.7
       '@unocss/vite':
         specifier: 0.52.5
         version: 0.52.5(vite@4.3.9)
@@ -1614,10 +1614,14 @@ packages:
     resolution: {integrity: sha512-1IOcUr1LKIb27gNYAnHfXKeLUbZKNYr7eVnPqQM+rJWoojN2v3eLMASIvidWvR3IbpcSKY5jtA8fQbXqjuW4oA==}
     dev: true
 
-  /@unocss/extractor-arbitrary-variants@0.52.5:
-    resolution: {integrity: sha512-C5UJfFyA5ILvHAz3xN4jxMwHv+EhN9TRRGgyJpsyB8WoqO8xujZIg6UqqFG6d/vvAEw/7mZoqgD87hHRacmYpw==}
+  /@unocss/core@0.52.7:
+    resolution: {integrity: sha512-dZonrlfu33SkUMsZXlsyYSM79tr2nLer/hBEU2ZaemRik2KchxIUNlZV6kX1f1k3m+gEtVQOyx1MImpgLS8PWg==}
+    dev: true
+
+  /@unocss/extractor-arbitrary-variants@0.52.7:
+    resolution: {integrity: sha512-nJ4iE7nIRpoOIQfD8S58yG4qJd6AhVPEfEOf7ksX1u8xLf71rrBIojwraRXvv7aPqNdZiWvXdh/znpA/QC5b9w==}
     dependencies:
-      '@unocss/core': 0.52.5
+      '@unocss/core': 0.52.7
     dev: true
 
   /@unocss/inspector@0.52.5:
@@ -1627,11 +1631,11 @@ packages:
       sirv: 2.0.3
     dev: true
 
-  /@unocss/preset-mini@0.52.5:
-    resolution: {integrity: sha512-0VP2mgjdG2WtqDmBZlBdQBz0cjuoHivI3wKfghQ6thIHAeoGdoB4iI13nPI5cHkdDvfnBNvA8k2SGR1fph+7Yg==}
+  /@unocss/preset-mini@0.52.7:
+    resolution: {integrity: sha512-c5VRzPwyAmIBWwz2ufEboYwHGiheG+V9SCmJJLHlu/gcW5KndFsxoeJPE6nOfXVmbx4AGq/rkzV35ZXtH8Iecw==}
     dependencies:
-      '@unocss/core': 0.52.5
-      '@unocss/extractor-arbitrary-variants': 0.52.5
+      '@unocss/core': 0.52.7
+      '@unocss/extractor-arbitrary-variants': 0.52.7
     dev: true
 
   /@unocss/scope@0.52.5:
