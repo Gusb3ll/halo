@@ -21,8 +21,8 @@ importers:
         specifier: 8.2.0
         version: 8.2.0
       dotenv:
-        specifier: 16.1.4
-        version: 16.1.4
+        specifier: 16.2.0
+        version: 16.2.0
       dotenv-cli:
         specifier: 7.2.1
         version: 7.2.1
@@ -2334,7 +2334,7 @@ packages:
     hasBin: true
     dependencies:
       cross-spawn: 7.0.3
-      dotenv: 16.1.4
+      dotenv: 16.2.0
       dotenv-expand: 10.0.0
       minimist: 1.2.6
     dev: true
@@ -2344,8 +2344,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /dotenv@16.1.4:
-    resolution: {integrity: sha512-m55RtE8AsPeJBpOIFKihEmqUcoVncQIwo7x9U8ZwLEZw9ZpXboz2c+rvog+jUaJvVrZ5kBOeYQBX5+8Aa/OZQw==}
+  /dotenv@16.2.0:
+    resolution: {integrity: sha512-jcq2vR1DY1+QA+vH58RIrWLDZOifTGmyQJWzP9arDUbgZcySdzuBb1WvhWZzZtiXgfm+GW2pjBqStqlfpzq7wQ==}
     engines: {node: '>=12'}
     dev: true
 
