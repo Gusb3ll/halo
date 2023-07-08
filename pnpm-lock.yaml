@@ -49,8 +49,8 @@ importers:
         version: 1.7.7
     devDependencies:
       '@solid-primitives/graphql':
-        specifier: 1.5.9
-        version: 1.5.9(solid-js@1.7.7)
+        specifier: 2.0.0
+        version: 2.0.0(@graphql-typed-document-node/core@3.2.0)(graphql@16.6.0)(solid-js@1.7.7)
       '@unocss/preset-mini':
         specifier: 0.53.5
         version: 0.53.5
@@ -1159,9 +1159,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@solid-primitives/graphql@1.5.9(solid-js@1.7.7):
-    resolution: {integrity: sha512-8GwPJP38UpMz6SzuKFvfPwJe5eHlR57OgVdV6C2Qaf2cKVGce0wnltAytJtHGirEnLHpGfEKo+MyjasHxJ0hbQ==}
+  /@solid-primitives/graphql@2.0.0(@graphql-typed-document-node/core@3.2.0)(graphql@16.6.0)(solid-js@1.7.7):
+    resolution: {integrity: sha512-ABzdfGDP6nKCGEER6f2K6tWYOqRgTu+I4kRPdiMcLSZAh+tWsys09mjQrvaY7gGvqU3m7XaKGkkA0FEdwbeO4g==}
     peerDependencies:
+      '@graphql-typed-document-node/core': ^3.2.0
+      graphql: ^16.6.0
       solid-js: ^1.6.12
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.6.0)
