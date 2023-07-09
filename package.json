@@ -25,7 +25,7 @@
     "dotenv": "16.3.1",
     "dotenv-cli": "7.2.1",
     "eslint": "8.44.0",
-    "nodemon": "2.0.22",
+    "nodemon": "3.0.1",
     "rimraf": "5.0.1",
     "turbo": "1.10.7",
     "typescript": "5.1.6"
